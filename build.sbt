@@ -2,7 +2,7 @@ scalaVersion := "2.13.6"
 addCompilerPlugin("org.typelevel" %% "kind-projector" % "0.13.0" cross CrossVersion.full)
 
 libraryDependencies ++= Seq(
-  "io.7mind.izumi" %% "distage-testkit-scalatest" % "1.0.6",
+  "io.7mind.izumi" %% "distage-testkit-scalatest" % "1.0.7",
 )
 
 scalacOptions ++= Seq(
